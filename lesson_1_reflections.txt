@@ -1,0 +1,32 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It will only show the difference between the two files. As a result, we can easily find out what was changed.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+	If some founction was not working, we can find to history file which is corresponding to that particular version. And we can easily track the changes through the history.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+	Pros: we can customize the and give the title of what we want to save. So we can keep track of it easily later. 
+	Cons: If we forget to commit, it will not be saved. Sometimes it could be too long or too short.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+	In programming, there is a highly chance that multiple files in a repository are related. So it is a good idea to keep track all of them at once. However, Google docs is used more with file editing, in which multiple files could be checked seperately.
+
+How can you use the commands git log and git diff to view the history of files?
+
+	We can use git log to check all the historys, with the latest version at the top. We can press down arrow to scroll down to look for the particular version that we want. We can use git diff with 2 log ids to check the differece between two versions.
+
+How might using version control make you more confident to make changes that could break something?
+
+	Before makeing changes, we can commit an old version to save the file. In the end, even the changes we make are bad, we can still go back to previous version or compare the two files to find out what changes are made.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+	I want to use it to save all my projects. And start using it to control different versions of my project/
