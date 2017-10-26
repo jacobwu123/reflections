@@ -17,3 +17,7 @@ What are some situations when branches would be helpful in keeping your history 
 How do the diagrams help you visualize the branch structure?
 	
 	The diagrams help me understand the branch relationship, and each node is connected to its parent. It also tells me that some nodes are unreachable from other nodes. And some of nodes might be lost in some cases.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	The result of mergin two branches together is that it keeps the files exist in both branches, discard the files thats deleted by one but keep by the other, and add files that were added by one of the branches. We represent it in the diagram because we combine two versions into one. 
