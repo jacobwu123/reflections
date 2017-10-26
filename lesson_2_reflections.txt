@@ -21,3 +21,12 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 	The result of mergin two branches together is that it keeps the files exist in both branches, discard the files thats deleted by one but keep by the other, and add files that were added by one of the branches. We represent it in the diagram because we combine two versions into one. 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	The automatic merging :
+		pros: it saves a lot of time for people to copy and paste files and find differences between files.
+		cons: if there are conflicts, automatic merging may cause bugs.
+	always doing merges manually:
+		pros: it will never have bugs since people are checking the files on their own and they know what they want to change as long as it is shown.
+		cons: it is so fastidious to check the differences btween large files. And some times it is really hard for people to find the exact differences by eyes.
