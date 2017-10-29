@@ -19,3 +19,7 @@ What is the benefit of having a copy of the last known state of the remote store
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 	I can collabroate using google drive, in which i can send all the files in zip and the other can down load it on his machine. It is easier because their is no merge. It is harder because you can not compare two different versions. I can also collaborate also one machin and one version, so that we will work on one machine. In that case, it is also not able to compare two different versions.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	We want to make changes in a separate branch when we want to make changes based on our own idea and we have not discussed with others. This will benefits that we want others to check our changes before merge it into the master branch. Making changes directly in master will benefit us in a way that there are not complicated branches floating around, which makes the project much simpler.
